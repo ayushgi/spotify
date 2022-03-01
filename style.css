@@ -1,0 +1,128 @@
+.nav{
+    margin: -8px;
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+     background-color: black; 
+    width: 101%;
+    height: 100%;
+}
+.nav li{
+    list-style: none;
+    margin: 25px;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav ul{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+.nav img{
+    height: 70px;
+    width: 59px;
+}
+    
+.io{
+    margin: 0px 0px 0px 1000px;
+    display: flex;
+    justify-content: end;
+}
+.container{
+    background-image: url("back.jpg") ;
+    margin: 14px 0px 1px 250px;
+    border-radius: 25px;
+    height: 658px;
+    width: 68%;
+    z-index: -48;
+}
+
+body{
+    background-image: url("img.jpg");
+}
+.bottom{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 81px;
+    width: 100%;
+    margin-top: 25px;
+    background-color: black;
+    border-radius: 25px;
+}
+#progress{
+    margin: -26px 7px 2px 126px;
+   width: 180vh;
+}
+.text{
+    overflow: hidden;
+}
+.text ol{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.text h1{
+    color: #e25022;
+   -moz-transform :translateX(100%);
+   -webkit-transform: translateX(100%);
+   transform: translateX(100%);
+   -moz-animation: ayush 15s linear infinite;
+   animation: ayush 15s linear infinite;
+}
+@-webkit-keyframes ayush {
+    from{-webkit-transform: translateX(-100%);}
+    to{
+        -webkit-transform: translateX(100%);
+    }}
+.icon{
+    margin: 9px 0px 0px 755px;
+}
+.icon i{
+    cursor: pointer;
+    size: 25px;
+}
+.it h3{
+    margin-left: 32px;
+    margin-top: -15px;
+    font-size: 5rem;
+    color: white;
+}
+.songitem{
+    height: 35px;
+    margin-left: 43px;
+    margin-top: 2px;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+}
+.tem{
+    margin-left: 297px;
+    cursor: pointer;
+    padding: 13px;
+    color:  white;;
+}
+#jh{
+    margin-left: 25px;
+    color:white;
+}
+.it{
+    margin-top: 2px;
+}
+.songinfo{
+    position: absolute;
+    margin-left: 32vw;
+    -moz-transform :translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: ayush 15s linear infinite;
+    animation: ayush 4s linear infinite;
+}
+.bottom input{
+    cursor: pointer;
+}
